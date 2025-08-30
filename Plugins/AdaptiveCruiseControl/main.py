@@ -87,7 +87,7 @@ class Plugin(ETS2LAPlugin):
         icon="https://avatars.githubusercontent.com/u/83072683?v=4"
     )
     
-    controls = [enable_disable, increment, decrement]
+    controls = [enable_disable, increment, decrement, brake_disable_button]
     
     pages = [SettingsMenu]
     
@@ -842,7 +842,8 @@ class Plugin(ETS2LAPlugin):
         
         # Check for brake disable autopilot feature
         brake_disable_autopilot = settings.Get("global", "brake_disable_autopilot", default=False)
-        user_brake_input = self.api_data.get("truckFloat", {}).get("userBrake", 0.0)
+        # Use button press instead of analog brake value
+        brake_pressed = brake_disable_button.pressed()
         
         if brake_disable_autopilot:
             # Initialize tracking variables if not present
@@ -851,8 +852,8 @@ class Plugin(ETS2LAPlugin):
             if not hasattr(self, '_acc_original_enabled_state'):
                 self._acc_original_enabled_state = self.enabled
             
-            # Disable ACC if user is braking and feature is enabled
-            if user_brake_input > 0.1 and self.enabled and not self._acc_was_disabled_by_brake:
+            # Disable ACC if user is pressing brake button and feature is enabled
+            if brake_pressed and self.enabled and not self._acc_was_disabled_by_brake:
                 # Store original state and disable ACC when user applies brake
                 self._acc_original_enabled_state = self.enabled
                 self._acc_was_disabled_by_brake = True
@@ -861,7 +862,7 @@ class Plugin(ETS2LAPlugin):
                 self.reset()  # Stop any current acceleration/braking
                 self.state.text = _("ACC disabled: Manual braking detected")
                 return
-            elif user_brake_input <= 0.05 and self._acc_was_disabled_by_brake:
+            elif not brake_pressed and self._acc_was_disabled_by_brake:
                 # Re-enable ACC when user releases brake if it was originally enabled
                 if self._acc_original_enabled_state:
                     self.enabled = True

@@ -151,6 +151,12 @@ class Page(ETS2LAPage):
             brake_disable_autopilot = not utils_settings.Get("global", "brake_disable_autopilot", default=False)
         
         utils_settings.Set("global", "brake_disable_autopilot", brake_disable_autopilot)
+    
+    def handle_brake_button_change(self):
+        from ETS2LA.Handlers.controls import edit_event
+        from ETS2LA.UI import SendPopup
+        SendPopup(_("Please press the key / button you want to bind for brake detection."), type="info")
+        edit_event("brake_disable_button")
 
     def match_value_to_preference_name(self, value: int) -> str:
         for name, val in ad_preferences.items():
@@ -376,10 +382,19 @@ class Page(ETS2LAPage):
                 
                 CheckboxWithTitleDescription(
                     title=_("Disable Autopilot when Braking"),
-                    description=_("Automatically disable autopilot (steering and acceleration) when the brake pedal is pressed. This prevents conflicts between autopilot acceleration and manual braking, improving safety especially in multiplayer."),
+                    description=_("Automatically disable autopilot (steering and acceleration) when a specific button/key is pressed instead of using analog brake value. Configure the button below when enabled."),
                     default=utils_settings.Get("global", "brake_disable_autopilot", default=False), # type: ignore
                     changed=self.handle_brake_disable_autopilot_change
                 )
+                
+                # Show brake button setting only if brake disable autopilot is enabled
+                if utils_settings.Get("global", "brake_disable_autopilot", default=False):
+                    ButtonWithTitleDescription(
+                        title=_("Configure Brake Button"),
+                        description=_("Configure which button/key should be used to detect braking for autopilot disable. This allows you to use a specific input device button instead of the game's analog brake value."),
+                        button_text=_("Set Brake Button"),
+                        action=self.handle_brake_button_change
+                    )
                 
             with Tab(_("Miscellaneous"), styles.FlexVertical() + styles.Gap("24px")):
                 if variables.LOCAL_MODE:
