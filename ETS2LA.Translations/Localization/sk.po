@@ -3,10 +3,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ETS2LA\n"
 "POT-Creation-Date: 2026-10-24 13:32:16+0300\n"
-"PO-Revision-Date: 2026-10-18 11:30+0000\n"
+"PO-Revision-Date: 2026-10-25 11:37+0000\n"
 "Last-Translator: Ketchup1812 <ketchup1812@ets2la.com>\n"
-"Language-Team: Slovak <http://weblate.ets2la.com/projects/ets2la/ets2la/sk/"
-">\n"
+"Language-Team: Slovak <http://weblate.ets2la.com/projects/ets2la/ets2la/sk/>"
+"\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -52,6 +52,9 @@ msgid ""
 "This chatbot is provided for free by <span class=\"text-text-l\">Lun011666</"
 "span>.<br/>For the sake of the community, we ask you not to abuse access."
 msgstr ""
+"Tento chatbot je poskytovaný bezplatne používateľom <span class=\"text-text-"
+"l\">Lun011666</span>.<br/>V záujme komunity vás žiadame, aby ste "
+"nezneužívali prístup."
 
 #, csharp-format
 msgid ""
@@ -73,7 +76,7 @@ msgstr ""
 "prípade potreby nainštalujte SDK nanovo."
 
 msgid "Log sent. Click here to view it."
-msgstr ""
+msgstr "Log odoslaný. Kliknite sem pre jeho zobrazenie."
 
 #, csharp-format
 msgid "Loaded {0} plugin from the Plugins folder."
@@ -299,7 +302,7 @@ msgid "Detected a switch to {0}, waiting for its game data to be parsed."
 msgstr "Zaznamenal som prechod na {0}, čakám na analýzu jeho herných údajov."
 
 msgid "Unable to read the current log."
-msgstr ""
+msgstr "Nepodarilo sa prečítať aktuálny log."
 
 msgid ""
 "Changing the display language requires a restart of ETS2LA to take effect. "
@@ -315,7 +318,7 @@ msgid "Only Show Official News"
 msgstr "Zobraziť iba oficiálne noviny"
 
 msgid "Share log"
-msgstr ""
+msgstr "Zdieľať log"
 
 msgid ""
 "The zoom level of the ETS2LA window. This can be used to scale the window to "
@@ -937,7 +940,7 @@ msgid "Apparent plugin directory {0} does not exist."
 msgstr "Zdá sa, že adresár s pluginami {0} neexistuje."
 
 msgid "Please see the logs for more information."
-msgstr "Ďalšie informácie nájdete v protokoloch."
+msgstr "Ďalšie informácie nájdete v logoch."
 
 msgid "An error occurred while checking for updates."
 msgstr "Pri kontrole aktualizácií došlo k chybe."
@@ -1295,7 +1298,7 @@ msgid "Current Version: {0}"
 msgstr "Aktuálna verzia: {0}"
 
 msgid "Show Fewer Logs"
-msgstr "Zobraziť menej záznamov"
+msgstr "Zobraziť menej logov"
 
 msgid "Adaptive Cruise Control Only"
 msgstr "Iba adaptívny tempomat"
@@ -1761,7 +1764,7 @@ msgid "Plugin Installer"
 msgstr "Plugin inštalátor"
 
 msgid "Show More Logs"
-msgstr "Zobraziť viac záznamov"
+msgstr "Zobraziť viac logov"
 
 msgid "The selected game executable was not found."
 msgstr "Vybraný spustiteľný súbor hry nebol nájdený."
@@ -1876,6 +1879,8 @@ msgid ""
 "User folder paths are hidden automatically. Review the log for other "
 "personal information before sending."
 msgstr ""
+"Cesty k priečinkom používateľov sa automaticky skryjú. Pred odoslaním si "
+"skontrolujte log, či neobsahuje ďalšie osobné informácie."
 
 #, csharp-format
 msgid "Playing sound: {0}"
@@ -2072,7 +2077,7 @@ msgstr ""
 "prosím nižšiu úroveň údajov."
 
 msgid "Send log"
-msgstr ""
+msgstr "Odoslať log"
 
 msgid "Show Plugin Updates"
 msgstr "Zobraziť aktualizácie Pluginov"
@@ -2464,7 +2469,7 @@ msgstr "Experimenty"
 
 #, csharp-format
 msgid "Failed to read log file at '{0}': {1}"
-msgstr "Nepodarilo sa načítať súbor protokolu v umiestnení „{0}“: {1}"
+msgstr "Nepodarilo sa načítať súbor log v umiestnení „{0}“: {1}"
 
 msgid "Display JWT Token"
 msgstr "Zobraziť JWT token"
