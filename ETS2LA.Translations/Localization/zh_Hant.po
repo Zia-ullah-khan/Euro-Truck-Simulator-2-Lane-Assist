@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ETS2LA\n"
 "POT-Creation-Date: 2026-10-24 13:32:16+0300\n"
-"PO-Revision-Date: 2026-10-18 11:30+0000\n"
+"PO-Revision-Date: 2026-10-26 15:37+0000\n"
 "Last-Translator: Lun <lun@ets2la.com>\n"
 "Language-Team: Chinese (Traditional Han script) <http://weblate.ets2la.com/"
 "projects/ets2la/ets2la/zh_Hant/>\n"
@@ -50,6 +50,8 @@ msgid ""
 "This chatbot is provided for free by <span class=\"text-text-l\">Lun011666</"
 "span>.<br/>For the sake of the community, we ask you not to abuse access."
 msgstr ""
+"此聊天機器人由 <span class=\"text-text-l\">Lun011666</span> 免費提供。<br/>為"
+"了維護社群的共同利益，請勿濫用此服務。"
 
 #, csharp-format
 msgid ""
@@ -68,7 +70,7 @@ msgid ""
 msgstr "用於輸出的記憶體無法使用，請確認遊戲正在執行，必要時請重新安裝 SDK。"
 
 msgid "Log sent. Click here to view it."
-msgstr ""
+msgstr "日誌已傳送，點擊此處查看。"
 
 #, csharp-format
 msgid "Loaded {0} plugin from the Plugins folder."
@@ -275,7 +277,7 @@ msgid "Detected a switch to {0}, waiting for its game data to be parsed."
 msgstr "偵測到已切換至 {0}，正在等待遊戲資料解析完成。"
 
 msgid "Unable to read the current log."
-msgstr ""
+msgstr "無法讀取目前的記錄檔。"
 
 msgid ""
 "Changing the display language requires a restart of ETS2LA to take effect. "
@@ -289,7 +291,7 @@ msgid "Only Show Official News"
 msgstr "僅顯示官方新聞"
 
 msgid "Share log"
-msgstr ""
+msgstr "分享日誌"
 
 msgid ""
 "The zoom level of the ETS2LA window. This can be used to scale the window to "
@@ -1725,7 +1727,7 @@ msgstr "公里每小時"
 msgid ""
 "User folder paths are hidden automatically. Review the log for other "
 "personal information before sending."
-msgstr ""
+msgstr "使用者資料夾路徑會自動隱藏。傳送前，請先檢查日誌中是否包含其他個人資料。"
 
 #, csharp-format
 msgid "Playing sound: {0}"
@@ -1909,7 +1911,7 @@ msgstr ""
 "不穩定。請選擇較低的資料精細度。"
 
 msgid "Send log"
-msgstr ""
+msgstr "傳送日誌"
 
 msgid "Show Plugin Updates"
 msgstr "顯示插件更新"
