@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ETS2LA\n"
 "POT-Creation-Date: 2026-10-27 15:26:18+0200\n"
-"PO-Revision-Date: 2026-10-27 15:18+0000\n"
+"PO-Revision-Date: 2026-10-27 15:29+0000\n"
 "Last-Translator: BGYdook <bgydook@ets2la.com>\n"
 "Language-Team: Chinese (Simplified Han script) <http://weblate.ets2la.com/"
 "projects/ets2la/ets2la/zh_Hans/>\n"
@@ -329,7 +329,7 @@ msgid "Display"
 msgstr "显示"
 
 msgid "Open Externally"
-msgstr ""
+msgstr "外部打开"
 
 #, csharp-format
 msgid "Cannot enable plugin {0} because dependency {1} failed to enable."
@@ -1325,7 +1325,7 @@ msgid "Copied '{0}' to '{1}'"
 msgstr "已将“{0}”复制到“{1}”"
 
 msgid "Privacy Policy"
-msgstr ""
+msgstr "隐私政策"
 
 msgid "Controls Backend shutdown complete, all controls saved."
 msgstr "控制后端已关闭，所有控件已保存。"
@@ -1665,7 +1665,7 @@ msgid "bar"
 msgstr "bar"
 
 msgid "View Privacy Policy"
-msgstr ""
+msgstr "查看隐私政策"
 
 msgid "Unknown Control"
 msgstr "未知控件"
@@ -1755,7 +1755,7 @@ msgstr "公里每小时"
 msgid ""
 "User folder paths are hidden automatically. Review the log for other "
 "personal information before sending."
-msgstr ""
+msgstr "用户文件夹路径会自动隐藏。在发送前，请检查日志中是否包含其他个人信息。"
 
 #, csharp-format
 msgid "Playing sound: {0}"
@@ -1939,7 +1939,7 @@ msgstr ""
 "定。请选择较低的数据精细度。"
 
 msgid "Send log"
-msgstr ""
+msgstr "发送日志"
 
 msgid "Show Plugin Updates"
 msgstr "显示插件更新"
@@ -2197,7 +2197,7 @@ msgid "Failed to install SDK version '{0}' to '{1}': {2}"
 msgstr "将 SDK 版本“{0}”安装至“{1}”失败：{2}"
 
 msgid "• ETS2LA Developers, contact@ets2la.com, Poland."
-msgstr ""
+msgstr "• ETS2LA 开发者，contact@ets2la.com，波兰。"
 
 msgid "Login"
 msgstr "登录"
