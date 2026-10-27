@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ETS2LA\n"
-"POT-Creation-Date: 2026-10-24 13:32:16+0300\n"
+"POT-Creation-Date: 2026-10-27 15:26:18+0200\n"
 "PO-Revision-Date: 2026-10-05 12:09+0000\n"
 "Last-Translator: Kubex70 <kubex70@ets2la.com>\n"
 "Language-Team: Polish <http://weblate.ets2la.com/projects/ets2la/ets2la/pl/"
@@ -51,14 +51,6 @@ msgstr ""
 msgid ""
 "This chatbot is provided for free by <span class=\"text-text-l\">Lun011666</"
 "span>.<br/>For the sake of the community, we ask you not to abuse access."
-msgstr ""
-
-#, csharp-format
-msgid ""
-"<span class=\"text-text-accent\">Usernames are case-sensitive.</span><br/"
-">Your username must be between {0} and {1} characters long, and may only "
-"contain letters, numbers, underscores, hyphens and periods. It must start "
-"and end with a letter or number."
 msgstr ""
 
 msgid ""
@@ -351,6 +343,9 @@ msgstr ""
 msgid "Display"
 msgstr "Wyświetlanie"
 
+msgid "Open Externally"
+msgstr ""
+
 #, csharp-format
 msgid "Cannot enable plugin {0} because dependency {1} failed to enable."
 msgstr ""
@@ -577,6 +572,11 @@ msgstr "Unikanie kolizji"
 
 msgid "Force Base Map Name"
 msgstr "Wymuś nazwę podstawowej mapy"
+
+msgid ""
+"• If you create an account, we transfer your account information to an "
+"international recipient."
+msgstr ""
 
 #, csharp-format
 msgid "Update to {0} from {1}"
@@ -869,6 +869,16 @@ msgid ""
 msgstr ""
 "Naciśnięcie tego przycisku wyłączy asystenty ETS2LA. Jeśli asystenty są już "
 "wyłączone, ten klawisz będzie przełączał tryby jazdy."
+
+msgid ""
+"By clicking <span class=\"font-bold\">Continue</span>, you agree to the "
+"transfer of your possible account information to an international recipient."
+msgstr ""
+
+msgid ""
+"By clicking <span class=\"font-bold\">Continue</span>, you agree to our "
+"Privacy Policy."
+msgstr ""
 
 msgid "Simplified Graphics"
 msgstr "Uproszczona grafika"
@@ -1185,6 +1195,12 @@ msgstr "LoaderException: {0}"
 msgid "Registration Failed"
 msgstr ""
 
+msgid ""
+"We don't sell or transfer your personal data to any third parties, in fact, "
+"we don't even collect it. However, we are still obligated to display and "
+"acquire your consent before proceeding."
+msgstr ""
+
 msgid "Disable"
 msgstr "Wyłącz"
 
@@ -1375,6 +1391,9 @@ msgstr ""
 #, csharp-format
 msgid "Copied '{0}' to '{1}'"
 msgstr "Skopiowano '{0}' do '{1}'"
+
+msgid "Privacy Policy"
+msgstr ""
 
 msgid "Controls Backend shutdown complete, all controls saved."
 msgstr ""
@@ -1734,6 +1753,9 @@ msgstr "Obsługa wielu okien widokowych"
 
 msgid "bar"
 msgstr "bar"
+
+msgid "View Privacy Policy"
+msgstr ""
 
 msgid "Unknown Control"
 msgstr "Nieznana kontrola"
@@ -2292,6 +2314,9 @@ msgstr ""
 #, csharp-format
 msgid "Failed to install SDK version '{0}' to '{1}': {2}"
 msgstr "Nie udało się zainstalować wersji SDK '{0}' na '{1}': {2}"
+
+msgid "• ETS2LA Developers, contact@ets2la.com, Poland."
+msgstr ""
 
 msgid "Login"
 msgstr "Login"

@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ETS2LA\n"
-"POT-Creation-Date: 2026-10-24 13:32:16+0300\n"
+"POT-Creation-Date: 2026-10-27 15:26:18+0200\n"
 "PO-Revision-Date: 2026-10-17 09:16+0000\n"
 "Last-Translator: Tumppi066 <contact@ets2la.com>\n"
 "Language-Team: Finnish <http://weblate.ets2la.com/projects/ets2la/ets2la/fi/"
@@ -53,18 +53,6 @@ msgid ""
 "This chatbot is provided for free by <span class=\"text-text-l\">Lun011666</"
 "span>.<br/>For the sake of the community, we ask you not to abuse access."
 msgstr ""
-
-#, csharp-format
-msgid ""
-"<span class=\"text-text-accent\">Usernames are case-sensitive.</span><br/"
-">Your username must be between {0} and {1} characters long, and may only "
-"contain letters, numbers, underscores, hyphens and periods. It must start "
-"and end with a letter or number."
-msgstr ""
-"<span class=\"text-text-accent\">Kirjainkoko merkitsee.</span><br/"
-">Käyttäjätunnuksesi on oltava {0} - {1} merkkiä pitkä, ja se voi sisältää "
-"vaik kirjaimia (ei äöå), numeroita, viivoja ja pisteitä. Sen täytyy alkaa ja "
-"loppua kirjaimeen tai numeroon."
 
 msgid ""
 "Memory not available for output, please ensure the game is running and "
@@ -354,6 +342,9 @@ msgstr ""
 msgid "Display"
 msgstr "Grafiikat"
 
+msgid "Open Externally"
+msgstr ""
+
 #, csharp-format
 msgid "Cannot enable plugin {0} because dependency {1} failed to enable."
 msgstr ""
@@ -577,6 +568,11 @@ msgstr "Törmäyksen Esto"
 
 msgid "Force Base Map Name"
 msgstr "Pakota pelin oma kartan nimi"
+
+msgid ""
+"• If you create an account, we transfer your account information to an "
+"international recipient."
+msgstr ""
 
 #, csharp-format
 msgid "Update to {0} from {1}"
@@ -872,6 +868,16 @@ msgid ""
 msgstr ""
 "Poistaa ajotuet käytöstä. Jos ajotuet ovat jo pois käytöstä, vaihtaa "
 "ajomuotojen välillä."
+
+msgid ""
+"By clicking <span class=\"font-bold\">Continue</span>, you agree to the "
+"transfer of your possible account information to an international recipient."
+msgstr ""
+
+msgid ""
+"By clicking <span class=\"font-bold\">Continue</span>, you agree to our "
+"Privacy Policy."
+msgstr ""
 
 msgid "Simplified Graphics"
 msgstr "Yksinkertaistetut grafiikat"
@@ -1188,6 +1194,12 @@ msgstr "LoaderException: {0}"
 msgid "Registration Failed"
 msgstr "Rekisteröinti epäonnistui"
 
+msgid ""
+"We don't sell or transfer your personal data to any third parties, in fact, "
+"we don't even collect it. However, we are still obligated to display and "
+"acquire your consent before proceeding."
+msgstr ""
+
 msgid "Disable"
 msgstr "Sammuta"
 
@@ -1387,6 +1399,9 @@ msgstr ""
 #, csharp-format
 msgid "Copied '{0}' to '{1}'"
 msgstr "Kopioitiin tiedosto {0} paikkaan {1}"
+
+msgid "Privacy Policy"
+msgstr ""
 
 msgid "Controls Backend shutdown complete, all controls saved."
 msgstr ""
@@ -1749,6 +1764,9 @@ msgstr "Tue montaa ikkunaa"
 
 msgid "bar"
 msgstr "bar"
+
+msgid "View Privacy Policy"
+msgstr ""
 
 msgid "Unknown Control"
 msgstr "Tuntematon määritys"
@@ -2309,6 +2327,9 @@ msgstr ""
 msgid "Failed to install SDK version '{0}' to '{1}': {2}"
 msgstr "SDK:n version {0} asentaminen paikkaan {1} epäonnistui: {2}"
 
+msgid "• ETS2LA Developers, contact@ets2la.com, Poland."
+msgstr ""
+
 msgid "Login"
 msgstr "Kirjaudu"
 
@@ -2471,6 +2492,18 @@ msgid ""
 msgstr ""
 "Säädä miten nopeasti ETS2LA reagoi tarpeellisiin nopeuden muutoksiin. Tämä "
 "ei vaikuta hätäjarrutukseen."
+
+#, csharp-format
+#~ msgid ""
+#~ "<span class=\"text-text-accent\">Usernames are case-sensitive.</span><br/"
+#~ ">Your username must be between {0} and {1} characters long, and may only "
+#~ "contain letters, numbers, underscores, hyphens and periods. It must start "
+#~ "and end with a letter or number."
+#~ msgstr ""
+#~ "<span class=\"text-text-accent\">Kirjainkoko merkitsee.</span><br/"
+#~ ">Käyttäjätunnuksesi on oltava {0} - {1} merkkiä pitkä, ja se voi sisältää "
+#~ "vaik kirjaimia (ei äöå), numeroita, viivoja ja pisteitä. Sen täytyy alkaa "
+#~ "ja loppua kirjaimeen tai numeroon."
 
 #~ msgid ""
 #~ "This chatbot is provided for free by <span class=\"text-text-"

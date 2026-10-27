@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ETS2LA\n"
-"POT-Creation-Date: 2026-10-24 13:32:16+0300\n"
+"POT-Creation-Date: 2026-10-27 15:26:18+0200\n"
 "PO-Revision-Date: 2026-10-26 15:37+0000\n"
 "Last-Translator: Lun <lun@ets2la.com>\n"
 "Language-Team: Chinese (Traditional Han script) <http://weblate.ets2la.com/"
@@ -52,17 +52,6 @@ msgid ""
 msgstr ""
 "此聊天機器人由 <span class=\"text-text-l\">Lun011666</span> 免費提供。<br/>為"
 "了維護社群的共同利益，請勿濫用此服務。"
-
-#, csharp-format
-msgid ""
-"<span class=\"text-text-accent\">Usernames are case-sensitive.</span><br/"
-">Your username must be between {0} and {1} characters long, and may only "
-"contain letters, numbers, underscores, hyphens and periods. It must start "
-"and end with a letter or number."
-msgstr ""
-"<span class=\"text-text-accent\">使用者名稱區分大小寫。</span><br/>使用者名稱"
-"長度必須介於 {0} 至 {1} 個字元之間，且只能包含英文字母、數字、底線（_）、連字"
-"號（-）及句點（.）。使用者名稱必須以英文字母或數字開頭及結尾。"
 
 msgid ""
 "Memory not available for output, please ensure the game is running and "
@@ -335,6 +324,9 @@ msgstr ""
 msgid "Display"
 msgstr "顯示"
 
+msgid "Open Externally"
+msgstr ""
+
 #, csharp-format
 msgid "Cannot enable plugin {0} because dependency {1} failed to enable."
 msgstr "無法啟用插件 {0}，因為依賴項目 {1} 啟用失敗。"
@@ -545,6 +537,11 @@ msgstr "防碰撞"
 
 msgid "Force Base Map Name"
 msgstr "強制使用遊戲預設地圖名稱"
+
+msgid ""
+"• If you create an account, we transfer your account information to an "
+"international recipient."
+msgstr ""
 
 #, csharp-format
 msgid "Update to {0} from {1}"
@@ -819,6 +816,16 @@ msgid ""
 msgstr ""
 "按下此按鍵將停用 ETS2LA 的輔助功能。若輔助功能已停用，則此按鍵會切換駕駛模"
 "式。"
+
+msgid ""
+"By clicking <span class=\"font-bold\">Continue</span>, you agree to the "
+"transfer of your possible account information to an international recipient."
+msgstr ""
+
+msgid ""
+"By clicking <span class=\"font-bold\">Continue</span>, you agree to our "
+"Privacy Policy."
+msgstr ""
 
 msgid "Simplified Graphics"
 msgstr "簡化圖形"
@@ -1117,6 +1124,12 @@ msgstr "載入器例外：{0}"
 msgid "Registration Failed"
 msgstr "註冊失敗"
 
+msgid ""
+"We don't sell or transfer your personal data to any third parties, in fact, "
+"we don't even collect it. However, we are still obligated to display and "
+"acquire your consent before proceeding."
+msgstr ""
+
 msgid "Disable"
 msgstr "停用"
 
@@ -1303,6 +1316,9 @@ msgstr ""
 #, csharp-format
 msgid "Copied '{0}' to '{1}'"
 msgstr "已將「{0}」複製到「{1}」"
+
+msgid "Privacy Policy"
+msgstr ""
 
 msgid "Controls Backend shutdown complete, all controls saved."
 msgstr "控制後端已關閉，所有控制項已儲存。"
@@ -1639,6 +1655,9 @@ msgstr "支援多螢幕顯示"
 msgid "bar"
 msgstr "bar"
 
+msgid "View Privacy Policy"
+msgstr ""
+
 msgid "Unknown Control"
 msgstr "未知控制項"
 
@@ -1727,7 +1746,8 @@ msgstr "公里每小時"
 msgid ""
 "User folder paths are hidden automatically. Review the log for other "
 "personal information before sending."
-msgstr "使用者資料夾路徑會自動隱藏。傳送前，請先檢查日誌中是否包含其他個人資料。"
+msgstr ""
+"使用者資料夾路徑會自動隱藏。傳送前，請先檢查日誌中是否包含其他個人資料。"
 
 #, csharp-format
 msgid "Playing sound: {0}"
@@ -2166,6 +2186,9 @@ msgstr ""
 msgid "Failed to install SDK version '{0}' to '{1}': {2}"
 msgstr "無法將 SDK 版本「{0}」安裝至「{1}」：{2}"
 
+msgid "• ETS2LA Developers, contact@ets2la.com, Poland."
+msgstr ""
+
 msgid "Login"
 msgstr "登入"
 
@@ -2323,6 +2346,17 @@ msgid ""
 "Adjust how quickly ETS2LA will respond to desired changes in acceleration. "
 "Emergency braking is not affected."
 msgstr "調整 ETS2LA 對目標加速度變化的反應速度。緊急煞車不受此設定影響。"
+
+#, csharp-format
+#~ msgid ""
+#~ "<span class=\"text-text-accent\">Usernames are case-sensitive.</span><br/"
+#~ ">Your username must be between {0} and {1} characters long, and may only "
+#~ "contain letters, numbers, underscores, hyphens and periods. It must start "
+#~ "and end with a letter or number."
+#~ msgstr ""
+#~ "<span class=\"text-text-accent\">使用者名稱區分大小寫。</span><br/>使用者"
+#~ "名稱長度必須介於 {0} 至 {1} 個字元之間，且只能包含英文字母、數字、底線"
+#~ "（_）、連字號（-）及句點（.）。使用者名稱必須以英文字母或數字開頭及結尾。"
 
 #~ msgid ""
 #~ "This chatbot is provided for free by <span class=\"text-text-"

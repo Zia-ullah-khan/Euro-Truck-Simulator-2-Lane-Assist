@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ETS2LA\n"
-"POT-Creation-Date: 2026-10-24 13:32:16+0300\n"
+"POT-Creation-Date: 2026-10-27 15:26:18+0200\n"
 "PO-Revision-Date: 2026-10-27 01:22+0000\n"
 "Last-Translator: McAs13 <tsumiguel@ets2la.com>\n"
 "Language-Team: Spanish (American) <http://weblate.ets2la.com/projects/ets2la/"
@@ -53,21 +53,9 @@ msgid ""
 "This chatbot is provided for free by <span class=\"text-text-l\">Lun011666</"
 "span>.<br/>For the sake of the community, we ask you not to abuse access."
 msgstr ""
-"Este chatbot es proporcionado gratuitamente por <span class=\"text-text-l\""
-">Lun011666</span>.<br/>Por el bien de la comunidad, te pedimos que no abuses "
-"del acceso."
-
-#, csharp-format
-msgid ""
-"<span class=\"text-text-accent\">Usernames are case-sensitive.</span><br/"
-">Your username must be between {0} and {1} characters long, and may only "
-"contain letters, numbers, underscores, hyphens and periods. It must start "
-"and end with a letter or number."
-msgstr ""
-"<span class=\"text-text-accent\">Los nombres de usuario distinguen entre "
-"mayúsculas y minúsculas.</span><br/>Tu nombre de usuario debe tener entre {0}"
-" y {1} caracteres, y solo puede contener letras, números, guiones bajos, "
-"guiones y puntos. Debe empezar y terminar con una letra o un número."
+"Este chatbot es proporcionado gratuitamente por <span class=\"text-text-"
+"l\">Lun011666</span>.<br/>Por el bien de la comunidad, te pedimos que no "
+"abuses del acceso."
 
 msgid ""
 "Memory not available for output, please ensure the game is running and "
@@ -370,6 +358,9 @@ msgstr ""
 msgid "Display"
 msgstr "Pantalla"
 
+msgid "Open Externally"
+msgstr ""
+
 #, csharp-format
 msgid "Cannot enable plugin {0} because dependency {1} failed to enable."
 msgstr ""
@@ -596,6 +587,11 @@ msgstr "Prevención de colisiones"
 
 msgid "Force Base Map Name"
 msgstr "Forzar nombre del mapa base"
+
+msgid ""
+"• If you create an account, we transfer your account information to an "
+"international recipient."
+msgstr ""
 
 #, csharp-format
 msgid "Update to {0} from {1}"
@@ -896,6 +892,16 @@ msgstr ""
 "Desactivará las asistencias de ETS2LA al pulsarse. Si las asistencias ya "
 "están desactivadas, esta tecla cambiará entre los modos de conducción."
 
+msgid ""
+"By clicking <span class=\"font-bold\">Continue</span>, you agree to the "
+"transfer of your possible account information to an international recipient."
+msgstr ""
+
+msgid ""
+"By clicking <span class=\"font-bold\">Continue</span>, you agree to our "
+"Privacy Policy."
+msgstr ""
+
 msgid "Simplified Graphics"
 msgstr "Gráficos simplificados"
 
@@ -906,8 +912,8 @@ msgid ""
 msgstr ""
 "Envía con <span class=\"text-text-l\">Enter</span>, nueva línea con <span "
 "class=\"text-text-l\">Shift+Enter</span>. Con cada mensaje se envía cierta "
-"información básica, <span class=\"text-text-l\">haz clic para "
-"mostrarla</span>."
+"información básica, <span class=\"text-text-l\">haz clic para mostrarla</"
+"span>."
 
 #, csharp-format
 msgid "No game executable found in '{0}', not adding it as an installation."
@@ -1217,6 +1223,12 @@ msgstr "LoaderException: {0}"
 msgid "Registration Failed"
 msgstr "Error al registrarse"
 
+msgid ""
+"We don't sell or transfer your personal data to any third parties, in fact, "
+"we don't even collect it. However, we are still obligated to display and "
+"acquire your consent before proceeding."
+msgstr ""
+
 msgid "Disable"
 msgstr "Desactivar"
 
@@ -1419,6 +1431,9 @@ msgstr ""
 #, csharp-format
 msgid "Copied '{0}' to '{1}'"
 msgstr "Se copió '{0}' a '{1}'"
+
+msgid "Privacy Policy"
+msgstr ""
 
 msgid "Controls Backend shutdown complete, all controls saved."
 msgstr ""
@@ -1787,6 +1802,9 @@ msgstr "Compatibilidad con múltiples vistas"
 
 msgid "bar"
 msgstr "bar"
+
+msgid "View Privacy Policy"
+msgstr ""
 
 msgid "Unknown Control"
 msgstr "Control desconocido"
@@ -2367,6 +2385,9 @@ msgstr ""
 msgid "Failed to install SDK version '{0}' to '{1}': {2}"
 msgstr "Error al instalar la versión del SDK '{0}' en '{1}': {2}"
 
+msgid "• ETS2LA Developers, contact@ets2la.com, Poland."
+msgstr ""
+
 msgid "Login"
 msgstr "Iniciar sesión"
 
@@ -2535,6 +2556,19 @@ msgid ""
 msgstr ""
 "Ajusta con qué rapidez responderá ETS2LA a los cambios deseados en la "
 "aceleración. El frenado de emergencia no se ve afectado."
+
+#, csharp-format
+#~ msgid ""
+#~ "<span class=\"text-text-accent\">Usernames are case-sensitive.</span><br/"
+#~ ">Your username must be between {0} and {1} characters long, and may only "
+#~ "contain letters, numbers, underscores, hyphens and periods. It must start "
+#~ "and end with a letter or number."
+#~ msgstr ""
+#~ "<span class=\"text-text-accent\">Los nombres de usuario distinguen entre "
+#~ "mayúsculas y minúsculas.</span><br/>Tu nombre de usuario debe tener entre "
+#~ "{0} y {1} caracteres, y solo puede contener letras, números, guiones "
+#~ "bajos, guiones y puntos. Debe empezar y terminar con una letra o un "
+#~ "número."
 
 #, csharp-format
 #~ msgid "You are currently logged in as {0}."

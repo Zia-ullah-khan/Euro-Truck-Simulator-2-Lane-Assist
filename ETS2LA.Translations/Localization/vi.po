@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ETS2LA\n"
-"POT-Creation-Date: 2026-10-24 13:32:16+0300\n"
+"POT-Creation-Date: 2026-10-27 15:26:18+0200\n"
 "PO-Revision-Date: 2026-08-26 18:07+0000\n"
 "Last-Translator: phucc <phucc@ets2la.com>\n"
 "Language-Team: Vietnamese <http://weblate.ets2la.com/projects/ets2la/ets2la/"
@@ -48,14 +48,6 @@ msgstr ""
 msgid ""
 "This chatbot is provided for free by <span class=\"text-text-l\">Lun011666</"
 "span>.<br/>For the sake of the community, we ask you not to abuse access."
-msgstr ""
-
-#, csharp-format
-msgid ""
-"<span class=\"text-text-accent\">Usernames are case-sensitive.</span><br/"
-">Your username must be between {0} and {1} characters long, and may only "
-"contain letters, numbers, underscores, hyphens and periods. It must start "
-"and end with a letter or number."
 msgstr ""
 
 msgid ""
@@ -332,6 +324,9 @@ msgstr ""
 msgid "Display"
 msgstr "Hiển thị"
 
+msgid "Open Externally"
+msgstr ""
+
 #, csharp-format
 msgid "Cannot enable plugin {0} because dependency {1} failed to enable."
 msgstr "Không thể bật plugin {0} vì không thể kích hoạt phụ thuộc {1}."
@@ -547,6 +542,11 @@ msgstr "Tránh va chạm"
 
 msgid "Force Base Map Name"
 msgstr "Bắt buộc dùng tên bản đồ gốc"
+
+msgid ""
+"• If you create an account, we transfer your account information to an "
+"international recipient."
+msgstr ""
 
 #, csharp-format
 msgid "Update to {0} from {1}"
@@ -811,6 +811,16 @@ msgstr ""
 msgid ""
 "Will disable ETS2LA's assists when pressed. If assists are already disabled, "
 "this key will switch between driving modes."
+msgstr ""
+
+msgid ""
+"By clicking <span class=\"font-bold\">Continue</span>, you agree to the "
+"transfer of your possible account information to an international recipient."
+msgstr ""
+
+msgid ""
+"By clicking <span class=\"font-bold\">Continue</span>, you agree to our "
+"Privacy Policy."
 msgstr ""
 
 msgid "Simplified Graphics"
@@ -1115,6 +1125,12 @@ msgstr "Lỗi tải (LoaderException): {0}"
 msgid "Registration Failed"
 msgstr ""
 
+msgid ""
+"We don't sell or transfer your personal data to any third parties, in fact, "
+"we don't even collect it. However, we are still obligated to display and "
+"acquire your consent before proceeding."
+msgstr ""
+
 msgid "Disable"
 msgstr ""
 
@@ -1295,6 +1311,9 @@ msgstr ""
 #, csharp-format
 msgid "Copied '{0}' to '{1}'"
 msgstr "Sao chép '{0}' đến '{1}'"
+
+msgid "Privacy Policy"
+msgstr ""
 
 msgid "Controls Backend shutdown complete, all controls saved."
 msgstr ""
@@ -1632,6 +1651,9 @@ msgstr "Hỗ trợ nhiều khung hình (Multiple Viewports)"
 
 msgid "bar"
 msgstr "bar"
+
+msgid "View Privacy Policy"
+msgstr ""
 
 msgid "Unknown Control"
 msgstr "Nút điều khiển không xác định"
@@ -2147,6 +2169,9 @@ msgstr ""
 
 #, csharp-format
 msgid "Failed to install SDK version '{0}' to '{1}': {2}"
+msgstr ""
+
+msgid "• ETS2LA Developers, contact@ets2la.com, Poland."
 msgstr ""
 
 msgid "Login"

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ETS2LA\n"
-"POT-Creation-Date: 2026-10-24 13:32:16+0300\n"
+"POT-Creation-Date: 2026-10-27 15:26:18+0200\n"
 "PO-Revision-Date: 2026-10-18 18:19+0000\n"
 "Last-Translator: goodnightan <goodnightan@ets2la.com>\n"
 "Language-Team: Chinese (Simplified Han script) <http://weblate.ets2la.com/"
@@ -54,17 +54,6 @@ msgid ""
 "This chatbot is provided for free by <span class=\"text-text-l\">Lun011666</"
 "span>.<br/>For the sake of the community, we ask you not to abuse access."
 msgstr ""
-
-#, csharp-format
-msgid ""
-"<span class=\"text-text-accent\">Usernames are case-sensitive.</span><br/"
-">Your username must be between {0} and {1} characters long, and may only "
-"contain letters, numbers, underscores, hyphens and periods. It must start "
-"and end with a letter or number."
-msgstr ""
-"<span class=\"text-text-accent\">用户名区分大小写。</span><br/>用户名长度必须"
-"介于 {0} 到{1}个字符之间，且只能包含字母、数字、下划线、连字符和句点。用户名"
-"必须以字母或数字开头和结尾。"
 
 msgid ""
 "Memory not available for output, please ensure the game is running and "
@@ -337,6 +326,9 @@ msgstr ""
 msgid "Display"
 msgstr "显示"
 
+msgid "Open Externally"
+msgstr ""
+
 #, csharp-format
 msgid "Cannot enable plugin {0} because dependency {1} failed to enable."
 msgstr "无法启用插件 {0}，因为依赖项 {1} 启用失败。"
@@ -547,6 +539,11 @@ msgstr "防碰撞"
 
 msgid "Force Base Map Name"
 msgstr "强制使用游戏默认地图名称"
+
+msgid ""
+"• If you create an account, we transfer your account information to an "
+"international recipient."
+msgstr ""
 
 #, csharp-format
 msgid "Update to {0} from {1}"
@@ -822,6 +819,16 @@ msgid ""
 msgstr ""
 "按下此按键将禁用 ETS2LA 的辅助功能。如果辅助功能已被禁用，此按键将用于切换驾"
 "驶模式。"
+
+msgid ""
+"By clicking <span class=\"font-bold\">Continue</span>, you agree to the "
+"transfer of your possible account information to an international recipient."
+msgstr ""
+
+msgid ""
+"By clicking <span class=\"font-bold\">Continue</span>, you agree to our "
+"Privacy Policy."
+msgstr ""
 
 msgid "Simplified Graphics"
 msgstr "简化图形"
@@ -1120,6 +1127,12 @@ msgstr "加载器异常：{0}"
 msgid "Registration Failed"
 msgstr "注册失败"
 
+msgid ""
+"We don't sell or transfer your personal data to any third parties, in fact, "
+"we don't even collect it. However, we are still obligated to display and "
+"acquire your consent before proceeding."
+msgstr ""
+
 msgid "Disable"
 msgstr "禁用"
 
@@ -1305,6 +1318,9 @@ msgstr ""
 #, csharp-format
 msgid "Copied '{0}' to '{1}'"
 msgstr "已将“{0}”复制到“{1}”"
+
+msgid "Privacy Policy"
+msgstr ""
 
 msgid "Controls Backend shutdown complete, all controls saved."
 msgstr "控制后端已关闭，所有控件已保存。"
@@ -1642,6 +1658,9 @@ msgstr "支持多屏幕显示"
 
 msgid "bar"
 msgstr "bar"
+
+msgid "View Privacy Policy"
+msgstr ""
 
 msgid "Unknown Control"
 msgstr "未知控件"
@@ -2172,6 +2191,9 @@ msgstr ""
 msgid "Failed to install SDK version '{0}' to '{1}': {2}"
 msgstr "将 SDK 版本“{0}”安装至“{1}”失败：{2}"
 
+msgid "• ETS2LA Developers, contact@ets2la.com, Poland."
+msgstr ""
+
 msgid "Login"
 msgstr "登录"
 
@@ -2329,6 +2351,17 @@ msgid ""
 "Adjust how quickly ETS2LA will respond to desired changes in acceleration. "
 "Emergency braking is not affected."
 msgstr "调整 ETS2LA 对目标加速度变化的反应速度。紧急制动不受此设置影响。"
+
+#, csharp-format
+#~ msgid ""
+#~ "<span class=\"text-text-accent\">Usernames are case-sensitive.</span><br/"
+#~ ">Your username must be between {0} and {1} characters long, and may only "
+#~ "contain letters, numbers, underscores, hyphens and periods. It must start "
+#~ "and end with a letter or number."
+#~ msgstr ""
+#~ "<span class=\"text-text-accent\">用户名区分大小写。</span><br/>用户名长度"
+#~ "必须介于 {0} 到{1}个字符之间，且只能包含字母、数字、下划线、连字符和句点。"
+#~ "用户名必须以字母或数字开头和结尾。"
 
 #~ msgid ""
 #~ "This chatbot is provided for free by <span class=\"text-text-"
