@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ETS2LA\n"
 "POT-Creation-Date: 2026-10-27 15:26:18+0200\n"
-"PO-Revision-Date: 2026-10-27 17:16+0000\n"
+"PO-Revision-Date: 2026-10-28 19:58+0000\n"
 "Last-Translator: Ketchup1812 <ketchup1812@ets2la.com>\n"
 "Language-Team: Slovak <http://weblate.ets2la.com/projects/ets2la/ets2la/sk/>"
 "\n"
@@ -439,7 +439,7 @@ msgid "Game Telemetry"
 msgstr "Herná telemetria"
 
 msgid "Early"
-msgstr "Skoro"
+msgstr "Skorá"
 
 #, csharp-format
 msgid ""
@@ -2207,7 +2207,7 @@ msgid "Created plugin directory: [gray]{0}[/]"
 msgstr "Vytvoril sa adresár pluginov: [gray]{0}[/]"
 
 msgid "Late"
-msgstr "Neskoro"
+msgstr "Neskorá"
 
 msgid "pounds"
 msgstr "libry"
